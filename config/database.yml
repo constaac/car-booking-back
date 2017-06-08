@@ -1,4 +1,4 @@
-<% project_name = 'rails-api-template' %>
+<% project_name = 'rails-api-car-booking' %>
 
 default: &default
   adapter: postgresql
