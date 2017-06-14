@@ -5,7 +5,7 @@ URL_PATH="/cars"
 curl "${API}${URL_PATH}" \
   --include \
   --request POST \
-  --header "Authorization: Token token=BAhJIiU1NDUwZGJmOGQyODA0ZWM5MzQ4Yzc0ZjkwZTg1MmJkNgY6BkVG--8dd97627174616d369265dc52d397716588644f3"\
+  --header "Authorization: Token token=BAhJIiVjMTY3ODA0OWUyNzhjYjA3MTRiZmExZDkzM2IyNmI4MAY6BkVG--17071c487fb4fe9d548ab5dd14026c7693eebb09"\
   --header "Content-Type: application/json" \
   --data '{
     "car": {
