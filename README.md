@@ -1,5 +1,6 @@
 Client repositiory: https://github.com/isharma-sharma/car-booking-front
 Client Application: https://isharma-sharma.github.io/car-booking-front/
+api repository :https://github.com/isharma-sharma/car-booking-back
 Deployed API: https://car-booking.herokuapp.com/
 
 Entity relationship  diagram
@@ -12,7 +13,7 @@ Routes
 .delete('/sign-out/:id', 'users#signout')
 .patch('/change-password/:id', 'users#changepw')
 .resources('users', { only: ['index', 'show'] })
-.resources('cars', { only: ['create', 'index', 'show', 'update', 'destroy'] })
+.resources ('cars', { except: [:new, :edit] })
 
 Dependencies are installed with bundle install
 
